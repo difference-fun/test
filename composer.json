@@ -1,0 +1,26 @@
+{
+  "name" : "difference_fun/test",
+  "description" : "difference_fun/test see https://difference.fun for detailed usage",
+  "type" : "package",
+  "keywords" : ["node", "difference", "fun", "keyboard", "package", "framework", "difference.fun", "test"],
+  "homepage": "https://difference.fun",
+  "require" : {
+    "ext-posix": "*",
+    "ext-zlib": "*",
+    "ext-iconv": "*",
+    "difference_fun/framework": "*"
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.34"
+  },
+  "license" : "MIT",
+  "authors" : [{
+    "name" : "Remco van der Velde",
+    "email" : "development@universeorange.com"
+  }],
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}

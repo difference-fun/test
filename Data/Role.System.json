@@ -1,0 +1,7 @@
+{
+  "name" : "ROLE_SYSTEM",
+  "rank" : 1,
+  "#class": "Account.Role",
+  "permission": [
+  ]
+}

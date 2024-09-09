@@ -1,0 +1,19 @@
+{
+  "System": {
+    "Route": [
+      {
+        "#class": "System.Route",
+        "name": "difference-fun-cli-test",
+        "path": "difference_fun\/test",
+        "controller": "Package.Difference.Fun.Test.Controller.Cli.run",
+        "request": {
+          "language": "en"
+        },
+        "priority": 1001,
+        "method": [
+          "CLI"
+        ]
+      }
+    ]
+  }
+}
